@@ -228,6 +228,11 @@ public class KYDrawerController: UIViewController, UIGestureRecognizerDelegate {
     // MARK: - Life Cycle
     /**************************************************************************/
     
+    override public func preferredStatusBarStyle() -> UIStatusBarStyle {
+        
+        return UIStatusBarStyle.LightContent
+    }
+    
     override public func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
